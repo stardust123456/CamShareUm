@@ -1,0 +1,15 @@
+@import "./styles/iconfont.wxss";
+@import "./components/SearchInput/SearchInput.wxss";
+
+page,view,text,swiper,swiper-item,image,navigator{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+/* 主题颜色 */
+page{
+    /* 定义主题颜色 */
+    --themeColor:#70CEEB
+    /* 定义统一的字体大小 375px  1px = 2rpx*/
+}

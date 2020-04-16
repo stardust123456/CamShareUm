@@ -1,0 +1,54 @@
+<!-- 搜索框 -->
+<view class="SearchInput">
+  <navigator url="../amap/amap" open-type="navigate">
+    请输入目的地
+  </navigator>
+</view>
+
+<!-- 轮播图渲染 -->
+<view class="index_swipter">
+  <swiper autoplay indicator-dots circular interval="2000">
+    <swiper-item>
+      <navigator>
+        <image src="http://chuantu.xyz/t6/728/1586779157x1031866013.png" mode="widthFix"></image>
+      </navigator>
+    </swiper-item>
+    
+    <swiper-item>
+        <navigator>
+          <image src="http://chuantu.xyz/t6/728/1586779303x1033347913.png" mode="widthFix"></image>
+        </navigator>
+    </swiper-item>
+
+    <swiper-item>
+      <navigator>
+        <image src="http://chuantu.xyz/t6/728/1586779323x1700338641.png" mode="widthFix"></image>
+      </navigator>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 导航栏渲染 -->
+<view class="index_navigator">
+  <!-- 查询天气 -->
+  <navigator url="../aweather/aweather"  >
+    <image src="http://chuantu.xyz/t6/728/1586781057x1033347913.png" mode="widthFix">
+    </image>查询天气
+  </navigator>
+  <!-- 预约用伞 -->
+  <navigator url="../preserve/preserve"  >
+    <image src="http://chuantu.xyz/t6/728/1586782384x1033347913.png" mode="widthFix">
+    </image>预约用伞
+  </navigator>
+
+  <navigator url="../aweather/aweather"  >
+    <image src="http://chuantu.xyz/t6/728/1586781865x1700338641.png" mode="widthFix">
+    </image>雨伞租赁
+  </navigator>
+
+  <navigator url="../switchcity/switchcity"  >
+    <image src="http://chuantu.xyz/t6/728/1586782487x1033347913.png" mode="widthFix">
+    </image>切换城市
+  </navigator>
+</view>
+
